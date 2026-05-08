@@ -85,10 +85,12 @@ db.incidents.aggregate([
 Our team consists of dedicated students from the **University of the Punjab (PUCIT)**, working together to build a robust defense framework.
 
 | Name | Role |
-| :--- | :--- |
-| **M. Huzaifa Farrukh** | Database Architect & Cloud Lead |
-| **Hammad Ashfaq** | Backend Developer & Schema Designer |
-| **Huzayfa Siddique** | Security Analyst & Data Modeler |
+| :--- | :--- | :--- |
+| **[M. Huzaifa Farrukh](https://github.com/MuhammadHuzaifaFarrukh)** | Database Architect & Cloud Lead |
+| **[Hammad Ashfaq](https://github.com/hammad-x25)** | Backend Developer & Schema Designer |
+| **[Huzayfa Siddique](https://github.com/huzayfaSiddique)** | Security Analyst & Data Modeler |
+
+---
 
 📜 License
 This project was developed for the Advanced Database Management System course at the University of the Punjab (PUCIT).
