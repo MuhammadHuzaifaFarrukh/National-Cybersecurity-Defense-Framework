@@ -65,15 +65,16 @@ The database consists of **13 interconnected collections** covering the full ope
    ```bash
    npm install
 4. **Configure environment variables:**
+   Create a .env file in the root.
    ```bash
    MONGODB_URI=your_mongodb_atlas_connection_string PORT=3000
-5. **Seed the Database:**
+6. **Seed the Database:**
    ```bash
    node scripts/seed-data.js
 
 📊 Sample Aggregation
 Example of a pipeline used to generate a Severity Distribution Report:
-  
+      ```bash
 db.incidents.aggregate([
   { $match: { status: "open" } },
   { $group: { _id: "$severity", count: { $sum: 1 } } },
@@ -84,7 +85,7 @@ db.incidents.aggregate([
 ## 👥 Contributors
 Our team consists of dedicated students from the **University of the Punjab (PUCIT)**, working together to build a robust defense framework.
 
-
+      
 | Name | Role |
 | :--- | :--- |
 | **[M. Huzaifa Farrukh](https://github.com/MuhammadHuzaifaFarrukh)** | Database Architect & Cloud Lead |
