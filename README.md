@@ -74,13 +74,13 @@ The database consists of **13 interconnected collections** covering the full ope
 
 📊 Sample Aggregation
 Example of a pipeline used to generate a Severity Distribution Report:
-      ```bash
-db.incidents.aggregate([
-  { $match: { status: "open" } },
-  { $group: { _id: "$severity", count: { $sum: 1 } } },
-  { $sort: { count: -1 } }
-]);
-
+   ```bash
+   db.incidents.aggregate([
+     { $match: { status: "open" } },
+     { $group: { _id: "$severity", count: { $sum: 1 } } },
+     { $sort: { count: -1 } }
+   ]);
+```
 
 ## 👥 Contributors
 Our team consists of dedicated students from the **University of the Punjab (PUCIT)**, working together to build a robust defense framework.
