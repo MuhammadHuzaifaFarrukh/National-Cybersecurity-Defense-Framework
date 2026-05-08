@@ -1,0 +1,34 @@
+{
+  "name": "national-cybersecurity-defense-framework",
+  "version": "1.0.0",
+  "description": "MongoDB database layer for the National Cybersecurity Defense Framework project.",
+  "main": "src/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node src/app.js",
+    "seed": "node src/database/seeders/index.seed.js",
+    "create-indexes": "node src/database/indexes/createIndexes.js"
+  },
+  "keywords": [
+    "mongodb",
+    "mongoose",
+    "cybersecurity",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^16.6.1",
+    "mongoose": "^8.23.1"
+  },
+  "optionalDependencies": {
+    "joi": "^17.13.3",
+    "pdfkit": "^0.15.0",
+    "puppeteer": "^24.8.2",
+    "winston": "^3.17.0"
+  }
+}
